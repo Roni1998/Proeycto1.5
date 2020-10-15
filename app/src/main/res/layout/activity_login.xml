@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:foregroundTint="@color/colorAccent"
+    android:background="@color/colorAccent"
     android:hapticFeedbackEnabled="false"
     tools:context=".MainActivity">
+
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -54,6 +55,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="#3761B6"
                 android:text="Acceder" />
 
             <Button
@@ -61,6 +63,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:background="#3761B6"
+                android:backgroundTint="#3761B6"
                 android:text="Registrar" />
         </LinearLayout>
     </LinearLayout>

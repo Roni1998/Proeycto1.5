@@ -14,12 +14,12 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="170dp"
-        android:layout_height="74dp"
+        android:layout_width="386dp"
+        android:layout_height="62dp"
         android:contentDescription="@string/nav_header_desc"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:scaleType="centerCrop"
-        app:srcCompat="@drawable/Logo" />
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/cruz" />
 
     <TextView
         android:layout_width="match_parent"
